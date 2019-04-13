@@ -1,0 +1,39 @@
+.slides {
+  position: relative;
+  width: 80%;
+  margin: 0;
+
+  .imgs {
+    li {
+      display: none;
+      width: 100%;
+
+      &.active {
+        display: block;
+      }
+      img {
+        width: 100%;
+      }
+
+    }
+  }
+  .control {
+      position: absolute;
+      bottom: 10%;
+      width: 100%;
+      font-size: 3rem;
+      color: #fff;
+      height: 65px;
+
+      .arrow-left {
+        position: absolute;
+        left: 10%;
+        cursor: pointer;
+      }
+      .arrow-right {
+        position: absolute;
+        right: 10%;
+        cursor: pointer;
+      }
+  }
+}
